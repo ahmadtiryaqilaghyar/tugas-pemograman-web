@@ -1,10 +1,71 @@
 body {
-    background-color: rgb(110, 226, 43);
-    }
-h1 {
-    color: rgb(0, 255, 106);
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2fd;
 }
 
+.comtainer {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #3c800fbe;
+    cox-shadow; 0 2px 4px rgba(0,0,0,1);
+}
 
-    
+header {
+    text-align: center;;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #1dc3e0;
+}
+
+p {
+    margin: 0;
+    color: #0884e9;
+}
+
+.profile,
+.skills,
+.experience,
+.education {
+    margin-bttom: 30px;
+}
+
+h2 {
+    margin: 0 0 10px 0;
+    color: #f00eca;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10;
+    background-color: #10d489;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h3 {
+    margin: 0 0 5px 0;
+    color: #a5042c8e;
+}
+
+article p {
+    margin: 0;
+    color: #5d009b;
+}
 
