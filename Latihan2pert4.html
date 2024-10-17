@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Flexbox</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .content {
+            width: 200px;
+            background-color: aqua;
+            border: 2px solid blue;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content" style="order: 2">
+            <h1>Ini konten 2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id odio velit laborum enim consequuntur! Eum culpa, quidem aut velit animi vel mollitia reprehenderit earum itaque, veniam, sapiente sit voluptatum dolore.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content" style="order: 1">
+            <h1>Ini konten 2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id odio velit laborum enim consequuntur! Eum culpa, quidem aut velit animi vel mollitia reprehenderit earum itaque, veniam, sapiente sit voluptatum dolore.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content" style="order: 4">
+            <h1>Ini konten 2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id odio velit laborum enim consequuntur! Eum culpa, quidem aut velit animi vel mollitia reprehenderit earum itaque, veniam, sapiente sit voluptatum dolore.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content" style="order: 3">
+            <h1>Ini konten 2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id odio velit laborum enim consequuntur! Eum culpa, quidem aut velit animi vel mollitia reprehenderit earum itaque, veniam, sapiente sit voluptatum dolore.</p>
+        </div>
+    </div>
+</body>
+</html>
