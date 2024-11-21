@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contoh DOM</title>
+    </head>
+    <body>
+        <h1 id="header" flag="judul header">Hello World</h1>
+        <h2 id="" name="" class="" flag="judul">Ini Sub Judul</h2>
+        <h2 flag="judul">Ini Sub Judul ke 2</h2>
+        <button>Change Title</button>
+
+        <script>
+            let button = document.querySelector("button");
+            button.addEventListener('click', function() {
+                alert('Button clicked');
+            });
+            function changeText(){
+                // document.getElementById('header').innerHTML = 'Belajar JavaScript!';
+
+                // let header = document.getElementById('header');
+                // header.innerHTML = header.nodeType;
+
+                // let element = document.createElement('h2');
+                // element.innerHTML = 'Ini Element Baru';
+                // document.body.appendChild(element);
+
+                // let elementTag = document.getElementsByTagName('h2');
+                // elementTag[0].innerHTML = 'Ini Sub Judul Baru';
+                // elementTag[1].innerHTML = 'Ini Sub Judul Baru';
+
+                let header = document.getElementById('header');
+                const valueFlag = header.getAttribute('flag');
+                header.innerHTML = valueFlag;
+            }
+        </script>
+    </body>
+</html>
